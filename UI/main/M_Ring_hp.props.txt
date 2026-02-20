@@ -1,0 +1,191 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Cowcatcher_TrailMask.T_Cowcatcher_TrailMask'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/main/hpline.hpline'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=Min }
+                    ParameterInfos[1] = { Name=RotateTime }
+                    ParameterInfos[2] = { Name=StepCount }
+                    ParameterInfos[3] = { Name=Percent_2 }
+                    ParameterInfos[4] = { Name=Color_end_S }
+                    ParameterInfos[5] = { Name=RingSize_2 }
+                    ParameterInfos[6] = { Name=Min_2 }
+                    ParameterInfos[7] = { Name=StepCount_2 }
+                    ParameterInfos[8] = { Name=HPFront }
+                    ParameterInfos[9] = { Name=Max }
+                    ParameterInfos[10] = { Name=Percent }
+                    ParameterInfos[11] = { Name=ShieldHealthValue }
+                    ParameterInfos[12] = { Name=Max_2 }
+                    ParameterInfos[13] = { Name=RingMask_RampWidth }
+                    ParameterInfos[14] = { Name=RingSize }
+                    ParameterInfos[15] = { Name=Tex_Gradation_Rot }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Tex_Gradation_UVs }
+                    ParameterInfos[1] = { Name=ShieldHealthColor }
+                    ParameterInfos[2] = { Name=DownColor }
+                    ParameterInfos[3] = { Name=BackgroundColor }
+                    ParameterInfos[4] = { Name=UPColor }
+                    ParameterInfos[5] = { Name=Color_end }
+                    ParameterInfos[6] = { Name=ForegroundColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Tex_Gradation }
+                    ParameterInfos[1] = { Name=UI_Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 20
+            ScalarValues[3] = 0.75
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 20
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.459235
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0.03
+            ScalarValues[14] = 1.5
+            ScalarValues[15] = 0
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=1 }
+            VectorValues[1] = { R=1, G=0.5, B=0, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0.131, G=0.869792, B=0.174037, A=1 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+            VectorValues[6] = { R=0.082283, G=0.40724, B=0.215861, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Cowcatcher_TrailMask.T_Cowcatcher_TrailMask'
+            TextureValues[1] = Texture2D'/Game/Resources/UI/main/hpline.hpline'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/main/hpline.hpline'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Cowcatcher_TrailMask.T_Cowcatcher_TrailMask'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Cowcatcher_TrailMask.T_Cowcatcher_TrailMask'
+        Name = Tex_Gradation
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/main/hpline.hpline'
+        Name = UI_Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Min, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=RotateTime, Group=None }
+    CollectedScalarParameters[2] = { Value=20, Name=StepCount, Group=None }
+    CollectedScalarParameters[3] = { Value=0.75, Name=Percent_2, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Color_end_S, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=RingSize_2, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Min_2, Group=None }
+    CollectedScalarParameters[7] = { Value=20, Name=StepCount_2, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=HPFront, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Max, Group=None }
+    CollectedScalarParameters[10] = { Value=0.459235, Name=Percent, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=ShieldHealthValue, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Max_2, Group=None }
+    CollectedScalarParameters[13] = { Value=0.03, Name=RingMask_RampWidth, Group=None }
+    CollectedScalarParameters[14] = { Value=1.5, Name=RingSize, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Tex_Gradation_Rot, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = Tex_Gradation_UVs
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.5, B=0, A=1 }
+        Name = ShieldHealthColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DownColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BackgroundColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.131, G=0.869792, B=0.174037, A=1 }
+        Name = UPColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color_end
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.082283, G=0.40724, B=0.215861, A=1 }
+        Name = ForegroundColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

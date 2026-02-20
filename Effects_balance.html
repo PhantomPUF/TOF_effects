@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Effects</title>
+        <link rel="stylesheet" href="css/reset.css"></style>
+        <link rel="stylesheet" href="css/Site.css"></style>
+        <link rel="stylesheet" href="effect.css"></style>
+    </head>
+    <body>
+      
+      <button id="backButton">Back</button>
+      <button> <a href="index.html">Main</a></button>
+      <div>
+        <input type="radio" class="lang" name="lang" value="en" checked> en
+        <input type="radio" class="lang" name="lang" value="ru"> ru
+      </div>
+      <input type="text" id="searchInput" placeholder="">
+      <div id="loader" style="display: none;">
+        <div class="spinner"></div>
+      </div>
+      <div id="container"></div> 
+      <div>
+        <div id="Mechs"></div>   
+      </div>       
+    </body>
+
+    <script src="js/Loadlang.js"></script>
+    <script src="effect.js"></script>
+
+  <script>
+
+  loadData(`GameplayEffectTipsDataTable_Balance.json`);
+
+  </script>
+
+</body>
+</html>

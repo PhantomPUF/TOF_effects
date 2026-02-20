@@ -1,0 +1,60 @@
+body{
+    margin: 1%;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+
+@media screen and (max-width: 800px) {
+
+}
+@media screen and (max-width: 530px) {
+
+}
+
+#searchInput {
+position: fixed;
+top: 10px;
+right: 10px;
+}
+
+.effect {
+display: flex;
+border-top: 3px solid green;
+align-items: center;
+}
+
+.effect_icon {
+height: 50px;
+width: 50px;
+background-color: #000;
+}
+
+p {
+font-size: 14px;
+overflow-wrap: break-word;
+margin: 0;
+margin-right: 10px;
+}
+
+.name {
+max-width: 30%;
+min-width: 30%;
+}
+
+.description {
+margin-left: 10px;
+max-width: 15%;
+min-width: 15%;
+}
+
+.details {
+max-width: max-content;
+margin: 0;
+}
