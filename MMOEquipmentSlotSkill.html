@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Effects</title>
+        <link rel="stylesheet" href="css/reset.css"></style>
+        <link rel="stylesheet" href="css/Site.css"></style>
+        <link rel="stylesheet" href="css/effect.css"></style>
+    </head>
+    <body>
+      
+      <button id="backButton">Back</button>
+      <button> <a href="index.html">Main</a></button>
+      <div>
+        <input type="radio" class="lang" name="lang" value="en" checked> en
+        <input type="radio" class="lang" name="lang" value="ru"> ru
+      </div>
+      <input type="text" id="searchInput" placeholder="">
+      <div id="loader" style="display: none;">
+        <div class="spinner"></div>
+      </div>
+      <div id="container"></div> 
+      <div>
+        <div id="Mechs"></div>   
+      </div>       
+    </body>
+
+    <script src="js/LoadLang.js"></script>
+
+  <script>
+
+
+document.getElementById('backButton').addEventListener('click', () => {
+    history.back();
+});
+
+const radios = document.querySelectorAll('input[type="radio"].lang');
+
+radios.forEach(radio => {
+    radio.addEventListener('change', () => {
+        const selectedValue = document.querySelector('input[name="lang"]:checked').value;
+        loadlanguage(selectedValue);
+    });
+});
+
+let data;
+
+let equips = [];
+
+class Equip {
+  constructor(name, imgPath, localized_name, desc, localized_desc) {
+    this.name = name;
+    this.imgPath = imgPath;    
+    this.localized_name = localized_name;
+    this.desc = desc;
+    this.localized_desc = localized_desc;    
+  }
+
+  createDiv() {
+    const container = document.getElementById('container');
+
+    const effectDiv =  document.createElement('div');
+    effectDiv.className = 'effect';
+
+    const img = document.createElement('img');
+    img.className = "effect_icon";
+    img.src = this.imgPath;
+    effectDiv.appendChild(img);
+
+    const localized_name = document.createElement('p');
+    localized_name.className = "description";
+    localized_name.innerHTML = this.localized_name;
+    effectDiv.appendChild(localized_name);
+    
+    const localized_desc = document.createElement('p');
+    localized_desc.className = "details";
+    localized_desc.innerHTML = this.localized_desc;;
+    effectDiv.appendChild(localized_desc);
+
+    container.appendChild(effectDiv);  
+  }
+}
+
+loadData()
+
+async function loadData() {
+  showLoader();
+  try {
+      const response = await fetch("EquipmentSlot/DT_MMOEquipmentSlotSkillConfig.json");
+      data = await response.json();
+      test();
+      loadlanguage("en");
+  } catch (error) {
+      console.error('Ошибка загрузки данных:', error);
+  }
+  finally {
+    hideLoader();
+  }
+}
+
+function test() 
+{
+  const container = document.getElementById('container');
+  data.forEach(item => {
+    if (item.Rows) {
+      Object.keys(item.Rows).forEach(key => {
+      name = item.Rows[key].SkillName.Key;
+      icon = getImgPath(item.Rows[key].SkillIcon.AssetPathName.replace("/Game/Resources/",""));
+       desc = item.Rows[key].SkillDetail.Key;
+       equip = new Equip(name, icon, "", desc, "");
+       equips.push(equip);   
+       equip.createDiv();
+       });
+    } 
+    else {
+      console.log("Нет свойства Rows");
+    }
+  });
+}
+
+function getImgPath(inputStr) {
+  const lastDotIndex = inputStr.lastIndexOf('.');
+  if (lastDotIndex === -1) {
+    return `${inputStr}.png`;
+  }
+  const filenameWithoutExt = inputStr.substring(0, lastDotIndex);
+  const outputStr = `${filenameWithoutExt}.png`;
+  return outputStr;
+}
+
+
+function showLoader() {
+  document.getElementById('loader').style.display = 'block';
+}
+
+function hideLoader() {
+  document.getElementById('loader').style.display = 'none';
+}
+
+async function loadlanguage(lang) {
+  try {
+      const response = await fetch(`Global/Game_${lang}.json`);
+      languagejson = await response.json();
+      buildIndex(languagejson);
+
+      for (const equip of equips) {
+        console.log(equip.name)
+        equip.localized_name = findValueByIndex(equip.name);
+        console.log(findValueByIndex(equip.name))
+        equip.localized_desc = findValueByIndex(equip.desc);
+      }
+
+    container.innerHTML = "";
+
+    for (const equip of equips) {
+       equip.createDiv();
+    }
+
+  } catch (error) {
+      console.error('Ошибка загрузки данных:', error);
+  }
+}
+
+  </script>
+
+</body>
+</html>

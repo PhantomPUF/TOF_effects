@@ -1,0 +1,255 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MMOEquipmentSlotConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MMOEquipmentSlotConfig'",
+        "ObjectPath": "/Script/HottaFramework"
+      }
+    },
+    "Rows": {
+      "helmet": {
+        "Slot": "EQUIPMENT_SLOT_RING_FIRST",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/helmet.helmet",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionHelmet.Bg_ExpansionHelmet",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "67D5D8A8459FAFE1904DAB869881DEF2",
+          "SourceString": "头盔附魔卡1",
+          "LocalizedString": "Helmet Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "visor": {
+        "Slot": "EQUIPMENT_SLOT_EYEPIECE",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/eyepiece.eyepiece",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionEyepiece.Bg_ExpansionEyepiece",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "047DF88841D846952C53ECB496211174",
+          "SourceString": "护目镜附魔卡1",
+          "LocalizedString": "Goggles Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "shawl": {
+        "Slot": "EQUIPMENT_SLOT_AMULET",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/shawl.shawl",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionShawl.Bg_ExpansionShawl",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "7D766BD94E90A6BB396BC7B686BA4C0D",
+          "SourceString": "护肩附魔卡1",
+          "LocalizedString": "Spaulders Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "glove": {
+        "Slot": "EQUIPMENT_SLOT_EARRINGS_FIRST",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/glove.glove",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionGlove.Bg_ExpansionGlove",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "0DDBFC0C4924A4F211CACEBC3894CE7A",
+          "SourceString": "护手附魔卡1",
+          "LocalizedString": "Handguards Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "armband": {
+        "Slot": "EQUIPMENT_SLOT_REAL_NECKLACE",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/Arm.Arm",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionArm.Bg_ExpansionArm",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "DB8EF78A4653EC262EB95B9D9ED022B8",
+          "SourceString": "臂甲附魔卡1",
+          "LocalizedString": "Bracers Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "cloth": {
+        "Slot": "EQUIPMENT_SLOT_CLOTH",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/cloth.cloth",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionCloth.Bg_ExpansionCloth",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "BCC9ADF14B4A674FAEED6FA322C88A41",
+          "SourceString": "衣服附魔卡1",
+          "LocalizedString": "Armor Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "core": {
+        "Slot": "EQUIPMENT_SLOT_HEAD",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/Core.Core",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionCore.Bg_ExpansionCore",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "40B6A9644992D132F53B12B2710078DE",
+          "SourceString": "引擎附魔卡1",
+          "LocalizedString": "Engine Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "belt": {
+        "Slot": "EQUIPMENT_SLOT_NECKLACE",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/belt.belt",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionBelt.Bg_ExpansionBelt",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "7FDE40214D3AA275BD7E7C986586676F",
+          "SourceString": "腰带附魔卡1",
+          "LocalizedString": "Belt Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "pants": {
+        "Slot": "EQUIPMENT_SLOT_PANTS",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/pants.pants",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionPants.Bg_ExpansionPants",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "F4917B7343F0FF8BDC1596A5E9D28887",
+          "SourceString": "裤子附魔卡1",
+          "LocalizedString": "Pants Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "shoes": {
+        "Slot": "EQUIPMENT_SLOT_SHOES",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/shoes.shoes",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionShoes.Bg_ExpansionShoes",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "9D2042E64DE6858A67DDA4B1CD654E72",
+          "SourceString": "鞋子附魔卡1",
+          "LocalizedString": "Boots Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "exoskeleton": {
+        "Slot": "EQUIPMENT_SLOT_ECTOSKELETON",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/ectoskeleton.ectoskeleton",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionEctoskeleton.Bg_ExpansionEctoskeleton",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "EFE094CB400C5E0FE5C17F918D660AAF",
+          "SourceString": "外骨骼附魔卡1",
+          "LocalizedString": "Exoskeleton Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      },
+      "reactor": {
+        "Slot": "EQUIPMENT_SLOT_REACTION_FURNACE",
+        "SlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/bag/equipment/reaction.reaction",
+          "SubPathString": ""
+        },
+        "WidgetSlotIcon": {
+          "AssetPathName": "/Game/Resources/UI/qianghua/TuoZhan_MMO/TuoZhanTaoZhuang/Bg_ExpansionReaction.Bg_ExpansionReaction",
+          "SubPathString": ""
+        },
+        "SlotName": {
+          "Namespace": "",
+          "Key": "BF8E11F94C00E2B301B784B401D077F9",
+          "SourceString": "反应炉附魔卡1",
+          "LocalizedString": "Reactor Mod Card I"
+        },
+        "StengthenSwitch": true,
+        "SkillSwitch": true,
+        "SkillBankNumber": 3
+      }
+    }
+  }
+]

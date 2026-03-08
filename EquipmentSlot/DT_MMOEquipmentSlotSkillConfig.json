@@ -1,0 +1,2471 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MMOEquipmentSlotSkillConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MMOEquipmentSlotSkillConfig'",
+        "ObjectPath": "/Script/HottaFramework"
+      }
+    },
+    "Rows": {
+      "blue_Skill_1": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_blue_Skill_1_name",
+          "SourceString": "通用拓展包Ⅰ",
+          "LocalizedString": "General Expansion Pack I"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_blue_Skill_1.mmo_addin_blue_Skill_1",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_RARE",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REAL_NECKLACE",
+          "EQUIPMENT_SLOT_PANTS",
+          "EQUIPMENT_SLOT_SHOES",
+          "EQUIPMENT_SLOT_AMULET"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_blue_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_blue_Skill_1_skill_des",
+          "SourceString": "拓展效果：攻击+<shuzhi>{0}%</>",
+          "LocalizedString": "Expansion Effect: ATK + <shuzhi>{0}%</>"
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Blue_Skill1_AtkUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Blue_Skill1/Buff_Blue_Skill1_MMO.Buff_Blue_Skill1_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_blue_Skill_1",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "blue_Skill_2": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_blue_Skill_2_name",
+          "SourceString": "通用拓展包Ⅱ",
+          "LocalizedString": "General Expansion Pack II"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_blue_Skill_2.mmo_addin_blue_Skill_2",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_RARE",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_CLOTH",
+          "EQUIPMENT_SLOT_EARRINGS_FIRST",
+          "EQUIPMENT_SLOT_NECKLACE",
+          "EQUIPMENT_SLOT_RING_FIRST"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_blue_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_blue_Skill_3_skill_des",
+          "SourceString": "拓展效果：生命+<shuzhi>{0}%</>",
+          "LocalizedString": "Expansion Effect: HP + <shuzhi>{0}%</>"
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Blue_Skill3_MaxHPUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Blue_Skill3/Buff_Blue_Skill3_MMO.Buff_Blue_Skill3_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_blue_Skill_2",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "blue_Skill_3": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_blue_Skill_3_name",
+          "SourceString": "通用拓展包Ⅲ",
+          "LocalizedString": "General Expansion Pack III"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_blue_Skill_3.mmo_addin_blue_Skill_3",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_RARE",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_HEAD",
+          "EQUIPMENT_SLOT_EYEPIECE",
+          "EQUIPMENT_SLOT_REACTION_FURNACE",
+          "EQUIPMENT_SLOT_ECTOSKELETON"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_blue_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_blue_Skill_2_skill_des",
+          "SourceString": "拓展效果：攻击+<shuzhi>{0}%</>，生命+<shuzhi>{1}%</>",
+          "LocalizedString": "Expansion Effect: ATK + <shuzhi>{0}%</>, HP + <shuzhi>{1}%</>"
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Blue_Skill2_AtkUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Blue_Skill2_MaxHPUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Blue_Skill2/Buff_Blue_Skill2_MMO.Buff_Blue_Skill2_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_blue_Skill_3",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "purple_Skill_1": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_purple_Skill_1_name",
+          "SourceString": "高级拓展包Ⅰ",
+          "LocalizedString": "Advanced Expansion Pack I"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_purple_Skill_1.mmo_addin_purple_Skill_1",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_EPIC",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REAL_NECKLACE",
+          "EQUIPMENT_SLOT_PANTS",
+          "EQUIPMENT_SLOT_SHOES",
+          "EQUIPMENT_SLOT_AMULET"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_purple_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_purple_Skill_1_skill_des",
+          "SourceString": "拓展效果：攻击+<shuzhi>{0}%</>",
+          "LocalizedString": "Expansion Effect: ATK + <shuzhi>{0}%</>"
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Purple_Skill1_AtkUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Purple_Skill1/Buff_Purple_Skill1_MMO.Buff_Purple_Skill1_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_purple_Skill_1",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "purple_Skill_2": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_purple_Skill_2_name",
+          "SourceString": "高级拓展包Ⅱ",
+          "LocalizedString": "Advanced Expansion Pack II"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_purple_Skill_2.mmo_addin_purple_Skill_2",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_EPIC",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_CLOTH",
+          "EQUIPMENT_SLOT_EARRINGS_FIRST",
+          "EQUIPMENT_SLOT_NECKLACE",
+          "EQUIPMENT_SLOT_RING_FIRST"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_purple_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_purple_Skill_3_skill_des",
+          "SourceString": "拓展效果：生命+<shuzhi>{0}%</>",
+          "LocalizedString": "Expansion Effect: HP + <shuzhi>{0}%</>"
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Purple_Skill3_MaxHPUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Purple_Skill3/Buff_Purple_Skill3_MMO.Buff_Purple_Skill3_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_purple_Skill_2",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "purple_Skill_3": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_purple_Skill_3_name",
+          "SourceString": "高级拓展包Ⅲ",
+          "LocalizedString": "Advanced Expansion Pack III"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_purple_Skill_3.mmo_addin_purple_Skill_3",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_EPIC",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_HEAD",
+          "EQUIPMENT_SLOT_EYEPIECE",
+          "EQUIPMENT_SLOT_REACTION_FURNACE",
+          "EQUIPMENT_SLOT_ECTOSKELETON"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_purple_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_purple_Skill_2_skill_des",
+          "SourceString": "拓展效果：攻击+<shuzhi>{0}%</>，生命+<shuzhi>{1}%</>",
+          "LocalizedString": "Expansion Effect: ATK + <shuzhi>{0}%</>, HP + <shuzhi>{1}%</>"
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Purple_Skill2_AtkUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Purple_Skill2_MaxHPUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Purple_Skill2/Buff_Purple_Skill2_MMO.Buff_Purple_Skill2_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_purple_Skill_3",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_1": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_1_name",
+          "SourceString": "群星拓展包",
+          "LocalizedString": "Allstars Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_1.mmo_addin_orange_Skill_1",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REAL_NECKLACE",
+          "EQUIPMENT_SLOT_PANTS",
+          "EQUIPMENT_SLOT_SHOES",
+          "EQUIPMENT_SLOT_AMULET"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_1_skill_des",
+          "SourceString": "拓展效果：强攻共鸣时，暴击时额外造成<shuzhi>{0}%</>攻击力的范围爆炸，冷却{1}秒。非强攻共鸣造成<shuzhi>{2}%</>攻击力的群体治疗",
+          "LocalizedString": "Expansion Effect: Deals bonus AoE explosion damage equal to <shuzhi>{0}%</> of ATK on Crit in Attack Resonance. Cooldown: {1}s. Provides AoE healing equal to <shuzhi>{2}%</> of ATK on Crit in Non-Attack Resonance."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill1_Damage_Level1"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill1_CD_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill1_Recover_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/addin_orange_Skill_1/Buff_Orange_Skill1_MMO.Buff_Orange_Skill1_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_1",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_2": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_2_name",
+          "SourceString": "守护拓展包",
+          "LocalizedString": "Sentinel Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_2.mmo_addin_orange_Skill_2",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REAL_NECKLACE",
+          "EQUIPMENT_SLOT_PANTS",
+          "EQUIPMENT_SLOT_SHOES",
+          "EQUIPMENT_SLOT_AMULET"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_DefHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_2_skill_des",
+          "SourceString": "拓展效果：血量低于{0}%时被攻击获得<shuzhi>{1}%</>生命值点护盾持续<shuzhi>{2}</>秒，冷却{3}秒。",
+          "LocalizedString": "Expansion Effect: Grants a Shield equal to <shuzhi>{1}%</> of HP for <shuzhi>{2}</>s upon being attacked while below {0}% HP. Cooldown: {3}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill2_MaxHealthCoff"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill2_Shield_Level1"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill2_Shield_Duration"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill2_CD_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill2/Buff_Orange_Skill2_MMO.Buff_Orange_Skill2_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_2",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_3": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_3_name",
+          "SourceString": "稳伤拓展包",
+          "LocalizedString": "Stable DMG Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_3.mmo_addin_orange_Skill_3",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REAL_NECKLACE",
+          "EQUIPMENT_SLOT_PANTS",
+          "EQUIPMENT_SLOT_SHOES",
+          "EQUIPMENT_SLOT_AMULET"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkDef_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_3_skill_des",
+          "SourceString": "拓展效果：暴击值下降10000点，暴击降低{0}%，非暴击伤害提升<shuzhi>{1}%</>",
+          "LocalizedString": "Expansion Effect: Reduces Crit Damage by 10,000 and Crit by {0}%, and increases Non-Crit Damage by <shuzhi>{1}%</>."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill3_CritDown_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill3_NotCritDamageUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill3/Buff_Orange_Skill3_MMO.Buff_Orange_Skill3_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_3",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_4": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_4_name",
+          "SourceString": "附伤拓展包",
+          "LocalizedString": "Bonus DMG Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_4.mmo_addin_orange_Skill_4",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REAL_NECKLACE",
+          "EQUIPMENT_SLOT_PANTS",
+          "EQUIPMENT_SLOT_SHOES",
+          "EQUIPMENT_SLOT_AMULET"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkCrit_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_4_skill_des",
+          "SourceString": "拓展效果：暴击时，额外造成本次暴击伤害<shuzhi>{0}倍</>的无视防御的伤害，冷却{1}秒（最高不超过<shuzhi>{2}%</>倍攻击力）",
+          "LocalizedString": "Expansion Effect: Deals bonus damage equal to <shuzhi>{0}</> × Crit Damage that ignores DEF on Crit. Cooldown: {1}s. (up to <shuzhi>{2}%</> × ATK)"
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill4_CritCoff_Level1"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill4_CD_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill4_MaxtAtkCoff_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill4/Buff_Orange_Skill4_MMO.Buff_Orange_Skill4_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_4",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_5": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_5_name",
+          "SourceString": "追偿拓展包",
+          "LocalizedString": "Reprisal Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_5.mmo_addin_orange_Skill_5",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REAL_NECKLACE",
+          "EQUIPMENT_SLOT_PANTS",
+          "EQUIPMENT_SLOT_SHOES",
+          "EQUIPMENT_SLOT_AMULET"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkCritdamage_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_5_skill_des",
+          "SourceString": "拓展效果：未暴击时，下次攻击必然额外造成一段<shuzhi>{0}%</>攻击力的暴击伤害，冷却{1}秒",
+          "LocalizedString": "Expansion Effect: Deals bonus Crit Damage equal to <shuzhi>{0}%</> of ATK next time when the attack does not Crit. Cooldown: {1}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill5_NotCritDamageCoff_Level1"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill5_CD_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill5/Buff_Orange_Skill5_MMO.Buff_Orange_Skill5_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_5",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_6": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_6_name",
+          "SourceString": "充能拓展包",
+          "LocalizedString": "Charge Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_6.mmo_addin_orange_Skill_6",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_CLOTH",
+          "EQUIPMENT_SLOT_EARRINGS_FIRST",
+          "EQUIPMENT_SLOT_NECKLACE",
+          "EQUIPMENT_SLOT_RING_FIRST"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_6_skill_des",
+          "SourceString": "拓展效果：攻击时，造成当前充能值*<shuzhi>{0}%</>攻击力的伤害（最低不低于<shuzhi>{1}%</>攻击力的伤害，不高于<shuzhi>{2}%</>攻击力的伤害)，冷却{3}秒",
+          "LocalizedString": "Expansion Effect: Deals damage equal to the current Charge × <shuzhi>{0}%</> of ATK on attack (no lower than <shuzhi>{1}%</> of ATK or higher than <shuzhi>{2}%</> of ATK). Cooldown: {3}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill6_ChargeDamageCoff_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill6_MinAtkCoff_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill6_MaxAtkCoff_Level1"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill6_CD_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill6/Buff_Orange_Skill6_MMO.Buff_Orange_Skill6_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_6",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_7": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_7_name",
+          "SourceString": "爆能拓展包",
+          "LocalizedString": "Nova Burst Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_7.mmo_addin_orange_Skill_7",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_CLOTH",
+          "EQUIPMENT_SLOT_EARRINGS_FIRST",
+          "EQUIPMENT_SLOT_NECKLACE",
+          "EQUIPMENT_SLOT_RING_FIRST"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_DefHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_7_skill_des",
+          "SourceString": "拓展效果：释放技能时，造成当前充能值*<shuzhi>{0}%</>攻击力的伤害,且额外造成<shuzhi>{1}</>点破甲，冷却{2}秒",
+          "LocalizedString": "Expansion Effect: Deals damage equal to the current Charge × <shuzhi>{0}%</> of ATK upon casting skills, with a bonus <shuzhi>{1}</> Shatter. Cooldown: {2}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill7_ChargeDamageCoff_Level1"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill7_BreakingValue_Level1"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill7_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill7/Buff_Orange_Skill7_MMO.Buff_Orange_Skill7_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_7",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_8": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_8_name",
+          "SourceString": "异种增伤拓展包",
+          "LocalizedString": "Exotic DMG Boost Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_8.mmo_addin_orange_Skill_8",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_CLOTH",
+          "EQUIPMENT_SLOT_EARRINGS_FIRST",
+          "EQUIPMENT_SLOT_NECKLACE",
+          "EQUIPMENT_SLOT_RING_FIRST"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkCrit_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_8_skill_des",
+          "SourceString": "拓展效果：对非人型、野兽、机械造成伤害时，伤害增加<shuzhi>{0}%</>",
+          "LocalizedString": "Expansion Effect: Increases damage dealt to Non-Humanoids, Beast, and Machinery by <shuzhi>{0}%</>."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill8_FinDmgUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill8/Buff_Addin_Orange_Skill8_MMO.Buff_Addin_Orange_Skill8_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_8",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_9": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_9_name",
+          "SourceString": "常规增伤拓展包",
+          "LocalizedString": "Normal DMG Boost Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_9.mmo_addin_orange_Skill_9",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_CLOTH",
+          "EQUIPMENT_SLOT_EARRINGS_FIRST",
+          "EQUIPMENT_SLOT_NECKLACE",
+          "EQUIPMENT_SLOT_RING_FIRST"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkCrit_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_9_skill_des",
+          "SourceString": "拓展效果：对人型、野兽、机械造成伤害时，伤害增加<shuzhi>{0}%</>",
+          "LocalizedString": "Expansion Effect: Increases damage dealt to Humanoids, Beast, and Machinery by <shuzhi>{0}%</>."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill9_FinDmgUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill9/Buff_Addin_Orange_Skill9_MMO.Buff_Addin_Orange_Skill9_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_9",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_10": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_10_name",
+          "SourceString": "常规增伤拓展包",
+          "LocalizedString": "Normal DMG Boost Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_10.mmo_addin_orange_Skill_10",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_CLOTH",
+          "EQUIPMENT_SLOT_EARRINGS_FIRST",
+          "EQUIPMENT_SLOT_NECKLACE",
+          "EQUIPMENT_SLOT_RING_FIRST"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkCritdamage_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_10_skill_des",
+          "SourceString": "拓展效果：对人型、野兽、机械造成伤害时，伤害增加<shuzhi>{0}%</>",
+          "LocalizedString": "Expansion Effect: Increases damage dealt to Humanoids, Beast, and Machinery by <shuzhi>{0}%</>."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill9_FinDmgUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill9/Buff_Addin_Orange_Skill9_MMO.Buff_Addin_Orange_Skill9_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_10",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_11": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_11_name",
+          "SourceString": "集群拓展包",
+          "LocalizedString": "Nexus Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_11.mmo_addin_orange_Skill_11",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_HEAD"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_11_skill_des",
+          "SourceString": "拓展效果：集群效应Ⅰ:穿戴此装备后新增主动技能-集群效应,使用技能后，以自身为中心造成固定<shuzhi>{0}%</>攻击力的范围伤害，冷却{1}S。进入战斗状态时进入冷却。本技能元素类型自动匹配释放时的前台武器，不享受武器部分增伤效果。",
+          "LocalizedString": "Expansion Effect – Cluster Effect I: Equip to unlock the active skill - Cluster Effect. Deals fixed AoE damage equal to <shuzhi>{0}%</> of ATK, centered on the caster. Enters cooldown when battle begins. Cooldown: {1}s. The skill's element matches the equipped main slot weapon. Does not benefit from partial weapon damage bonuses."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill11_Damage"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill11_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill11/Buff_Addin_Orange_Skill11_MMO.Buff_Addin_Orange_Skill11_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_11",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_12": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_12_name",
+          "SourceString": "持续拓展包",
+          "LocalizedString": "Endurance Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_12.mmo_addin_orange_Skill_12",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_HEAD"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_12_skill_des",
+          "SourceString": "拓展效果：持续效应Ⅰ:穿戴此装备后新增主动技能-持续效应,使用技能后，对锁定目标造成单体持续伤害，每秒造成<shuzhi>{0}%</>攻击力点伤害，持续{1}s。冷却{2}S，进入战斗状态时进入冷却。本技能元素类型自动匹配释放时的前台武器，不享受武器部分增伤效果。",
+          "LocalizedString": "Expansion Effect – Sustained Effect I: Equip to unlock the active skill - Sustained Effect. Inflicts DoT on the locked-on target, dealing damage equal to <shuzhi>{0}%</> of ATK per second for {1}s. Enters cooldown when battle begins. Cooldown: {2}s. The skill's element matches the equipped main slot weapon. Does not benefit from partial weapon damage bonuses."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill12_PeriodDamage"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill12_Duration"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill12_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill12/Buff_Addin_Orange_Skill12_MMO.Buff_Addin_Orange_Skill12_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_12",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_13": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_13_name",
+          "SourceString": "全防御拓展包",
+          "LocalizedString": "Aegis Wall Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_13.mmo_addin_orange_Skill_13",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_HEAD"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_13_skill_des",
+          "SourceString": "拓展效果：全面防御Ⅰ:穿戴此装备后新增主动技能-全面防御,使用技能后，解除自身异常状态，对队友释放护盾，每人获得<shuzhi>{0}%</>攻击力点护盾，持续{1}S，冷却{2}S。除自己外的生命值百分比最低的队友额外获得{3}%护盾值。",
+          "LocalizedString": "Expansion Effect – Full Defense I: Equip to unlock the active skill - Full Defense. Removes the caster's debuffs and grants teammates shields equal to <shuzhi>{0}%</> ATK for {1}s. Cooldown: {2}s. Grants bonus shield equal to {3}%of ATK to the teammate with the lowest HP percentage."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill13_Shield"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill13_Duration"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill13_CD"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill13_ExtraShieldCoff"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill13/Buff_Addin_Orange_Skill13_MMO.Buff_Addin_Orange_Skill13_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_13",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_14": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_14_name",
+          "SourceString": "修复拓展包",
+          "LocalizedString": "Nanoforge Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_14.mmo_addin_orange_Skill_14",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_HEAD"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkDef_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_14_skill_des",
+          "SourceString": "拓展效果：定点修复Ⅰ:穿戴此装备后新增主动技能-定点修复,使用技能后，自身提升<shuzhi>{0}%</>生命值点生命值与生命上限，并获得霸体，持续{1}秒，冷却{2}S。",
+          "LocalizedString": "Expansion Effect – Pinpoint Repair I: Equip to unlock the active skill - Pinpoint Repair. Increases the caster's HP and Max HP by <shuzhi>{0}%</> of HP, and grants Hyperbody for {1}s. Cooldown: {2}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill14_MaxHPRecover"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill14_Duration"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill14_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill14/Buff_Addin_Orange_Skill14_MMO.Buff_Addin_Orange_Skill14_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_14",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_15": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_15_name",
+          "SourceString": "聚爆拓展包",
+          "LocalizedString": "Conflagration Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_15.mmo_addin_orange_Skill_15",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_EYEPIECE"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_15_skill_des",
+          "SourceString": "拓展效果：自动覆盖Ⅰ:在当前锁定目标的脚下生成恶意代码，聚集怪物{0}秒后造成<shuzhi>{1}%</>攻击力的范围伤害，冷却{2}秒。本技能元素类型自动匹配释放时的前台武器，不享受武器部分增伤效果。",
+          "LocalizedString": "Expansion Effect – Auto Override I: Generates malicious code beneath the target, pulling in enemies for {0}s before detonating. Deals AoE damage equal to <shuzhi>{1}%</> of Attack. Cooldown: {2}s. The skill's element matches the equipped main slot weapon. Does not benefit from partial weapon damage bonuses."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill15_BlackHole_Duration"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill15_Damage"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill15_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill15/Buff_Addin_Orange_Skill15_MMO.Buff_Addin_Orange_Skill15_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_15",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_16": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_16_name",
+          "SourceString": "恶意叠加拓展包",
+          "LocalizedString": "Malicious Stack Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_16.mmo_addin_orange_Skill_16",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_EYEPIECE"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_16_skill_des",
+          "SourceString": "拓展效果：追加损耗Ⅰ:普攻命中目标时，使目标获得一段恶意代码标记，最多叠加{0}段，触发一次<shuzhi>{1}%</>攻击力点单体伤害，并且降低怪物<shuzhi>{2}%</>攻击力。同一单位触发伤害后的{3}秒内，无法再次获得恶意代码印记。本技能元素类型自动匹配释放时的前台武器，不享受武器部分增伤效果",
+          "LocalizedString": "Expansion Effect – Additional Drain I: Inflicts a stack of malicious code on the target on normal attack hit, up to {0} stacks. Deals damage once equal to <shuzhi>{1}%</> of ATK, reducing enemy's ATK by <shuzhi>{2}%</>. The same target cannot be marked again within {3}s. The skill's element matches the equipped main slot weapon. Does not benefit from partial weapon damage bonuses."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill16_MaxCount"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill16_Damage"
+            }
+          },
+          {
+            "Value": -100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill16_AtkDown"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill16_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill16/Buff_Addin_Orange_Skill16_MMO.Buff_Addin_Orange_Skill16_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_16",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_17": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_17_name",
+          "SourceString": "治疗球拓展包",
+          "LocalizedString": "Healing Orb Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_17.mmo_addin_orange_Skill_17",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REACTION_FURNACE"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkDef_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_17_skill_des",
+          "SourceString": "拓展效果：自身生命值低于{0}%时，受到伤害，掉落治疗球，存在{1}秒，冷却{2}秒，捡取可恢复<shuzhi>{3}%</>攻击力点生命。",
+          "LocalizedString": "Expansion Effect: Drops a healing orb upon taking damage when HP falls below {0}%. The orb lasts for {1}s. Cooldown: {2}s. Restores HP equal to <shuzhi>{3}%</> of ATK when picked up."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill17_HPper"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill17_Duration"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill17_CD"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill17_Recover"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill17/Buff_Addin_Orange_Skill17_MMO.Buff_Addin_Orange_Skill17_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_17",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_18": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_18_name",
+          "SourceString": "吸血拓展包",
+          "LocalizedString": "Blood Surge Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_18.mmo_addin_orange_Skill_18",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REACTION_FURNACE"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkDef_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_18_skill_des",
+          "SourceString": "拓展效果：攻击目标时恢复<shuzhi>{0}%</>攻击力点血量，cd {1}秒",
+          "LocalizedString": "Expansion Effect: Restores HP equal to <shuzhi>{0}%</> of ATK on hit. Cooldown: {1}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill18_Recover"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill18_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill18/Buff_Addin_Orange_Skill18_MMO.Buff_Addin_Orange_Skill18_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_18",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_19": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_19_name",
+          "SourceString": "速移拓展包",
+          "LocalizedString": "Rapid Step Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_19.mmo_addin_orange_Skill_19",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_ECTOSKELETON"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_19_skill_des",
+          "SourceString": "拓展效果：闪避后，移动速度提升<shuzhi>{0}%</>，持续{1}秒，冷却{2}秒",
+          "LocalizedString": "Expansion Effect: Increases Speed by <shuzhi>{0}%</> on Dodge for {1}s. Cooldown: {2}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill19_SpeedUp"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill19_Duration"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill19_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill19/Buff_Addin_Orange_Skill19_MMO.Buff_Addin_Orange_Skill19_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_19",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_20": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_20_name",
+          "SourceString": "速疗拓展包",
+          "LocalizedString": "Vital Surge Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_20.mmo_addin_orange_Skill_20",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_ECTOSKELETON"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_20_skill_des",
+          "SourceString": "拓展效果：治疗时{0}%概率提升<shuzhi>{1}%</>的治疗效率，持续{2}秒，冷却{3}秒",
+          "LocalizedString": "Expansion Effect: Has a {0}% chance to increase healing efficiency by <shuzhi>{1}%</> for {2}s. Cooldown: {3}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill20_RecoverUpProbability"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill20_RecoverUp"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill20_Duration"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill20_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill20/Buff_Addin_Orange_Skill20_MMO.Buff_Addin_Orange_Skill20_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_20",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_21": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_21_name",
+          "SourceString": "随机承伤拓展包",
+          "LocalizedString": "Random Targeting Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_21.mmo_addin_orange_Skill_21",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_ECTOSKELETON"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_21_skill_des",
+          "SourceString": "拓展效果：每{0}秒摇动骰子，相同概率出现3、6、9点。出现3点时玩家承受伤害提高<shuzhi>{1}%</>，6点时承受伤害降低<shuzhi>{2}%</>，9点时承受伤害降低<shuzhi>{3}%</>，这些效果持续{4}秒",
+          "LocalizedString": "Expansion Effect: Rolls dice every {0}s, with a one-third chance of landing on 3, 6, or 9. 3: Increases damage taken by <shuzhi>{1}%</>; 6: Reduces damage taken by <shuzhi>{2}%</>; 9: Reduces damage taken by <shuzhi>{3}%</>. These effects last for {4}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill21_Period"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill21_BeDamageUp"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill21_BeDamageDown"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill21_BeDamageDown_L2"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill21_Duration"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill21/Buff_Addin_Orange_Skill21_MMO.Buff_Addin_Orange_Skill21_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_21",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_22": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_22_name",
+          "SourceString": "随机伤害拓展包",
+          "LocalizedString": "Random DMG Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/mmo_addin_orange_Skill_22.mmo_addin_orange_Skill_22",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_ECTOSKELETON"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_22_skill_des",
+          "SourceString": "拓展效果：每{0}秒摇动骰子，相同概率出现3、6、9点。出现3点时玩家伤害降低<shuzhi>{1}%</>，6点时伤害提升<shuzhi>{2}%</>，9点时伤害提升<shuzhi>{3}%</>，这些效果持续{4}秒",
+          "LocalizedString": "Expansion Effect: Rolls dice every {0}s, with a one-third chance of landing on 3, 6, or 9. 3: Reduces damage by <shuzhi>{1}%</>; 6: Increases damage by <shuzhi>{2}%</>; 9: Increases damage by <shuzhi>{3}%</>. These effects last for {4}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill22_Period"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill22_DamageDown"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill22_DamageUp"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill22_DamageUp_L2"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill21_Duration"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill22/Buff_Addin_Orange_Skill22_MMO.Buff_Addin_Orange_Skill22_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_22",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_23": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_23_name",
+          "SourceString": "决斗-远防拓展包",
+          "LocalizedString": "Duel–Guard Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/icon_FUMO_yf.icon_FUMO_yf",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REAL_NECKLACE",
+          "EQUIPMENT_SLOT_PANTS",
+          "EQUIPMENT_SLOT_SHOES",
+          "EQUIPMENT_SLOT_AMULET"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_23_skill_des",
+          "SourceString": "拓展效果：受到玩家伤害降低<shuzhi>{0}%</>，受到玩家5米之外的伤害降低<shuzhi>{1}%</>",
+          "LocalizedString": "Expansion Effect: Reduces damage taken from players by <shuzhi>{0}%</>, and by <shuzhi>{1}%</> from those beyond 5 meters."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill23_BePlayerDamageDown_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill23_BePlayerDamageDown_Out5_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill23/Buff_Orange_Skill23_MMO.Buff_Orange_Skill23_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_23",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_24": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_24_name",
+          "SourceString": "决斗-攻坚拓展包",
+          "LocalizedString": "Duel–Assault Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/icon_FUMO_gj.icon_FUMO_gj",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REAL_NECKLACE",
+          "EQUIPMENT_SLOT_PANTS",
+          "EQUIPMENT_SLOT_SHOES",
+          "EQUIPMENT_SLOT_AMULET"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_24_skill_des",
+          "SourceString": "拓展效果：对玩家伤害提升<shuzhi>{0}%</>，对血量高于{1}%的玩家目标，破盾效率提升<shuzhi>{2}%</>",
+          "LocalizedString": "Expansion Effect: Increases damage against players by <shuzhi>{0}%</> and shatter by <shuzhi>{2}%</> to targets with more than {1}% HP."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill24_HitPlayerDamageUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill24_HitPlayerBreakingValueUp_HP"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill24_HitPlayerBreakingValueUp_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill24/Buff_Orange_Skill24_MMO.Buff_Orange_Skill24_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_24",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_25": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_25_name",
+          "SourceString": "决斗-命盾拓展包",
+          "LocalizedString": "Duel–Aegis Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/icon_FUMO_md.icon_FUMO_md",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_CLOTH",
+          "EQUIPMENT_SLOT_EARRINGS_FIRST",
+          "EQUIPMENT_SLOT_NECKLACE",
+          "EQUIPMENT_SLOT_RING_FIRST"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_25_skill_des",
+          "SourceString": "拓展效果：受到玩家伤害降低<shuzhi>{0}%</>，攻击玩家时获得<shuzhi>{1}%</>生命上限的护盾，冷却{2}秒",
+          "LocalizedString": "Expansion Effect: Reduces damage taken from players by <shuzhi>{0}%</> and grants a Shield equal to <shuzhi>{1}%</> of Max HP when attacking other players. Cooldown: {2}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill25_BePlayerDamageDown_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill25_MaxHPShield_Level1"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill25_MaxHPShield_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill25/Buff_Orange_Skill25_MMO.Buff_Orange_Skill25_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_25",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_26": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_26_name",
+          "SourceString": "决斗-近攻拓展包",
+          "LocalizedString": "Duel–Strike Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/icon_FUMO_jg.icon_FUMO_jg",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_CLOTH",
+          "EQUIPMENT_SLOT_EARRINGS_FIRST",
+          "EQUIPMENT_SLOT_NECKLACE",
+          "EQUIPMENT_SLOT_RING_FIRST"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "old8_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_26_skill_des",
+          "SourceString": "对玩家伤害提升<shuzhi>{0}%</>，对自身范围5米内的玩家伤害提升<shuzhi>{1}%</>",
+          "LocalizedString": "Increases damage dealt to players by <shuzhi>{0}%</>, and by <shuzhi>{1}%</> to those within 5 meters."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill26_HitPlayerDamageUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill26_HitPlayerDamageUp_Less5_Level1"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill26/Buff_Orange_Skill26_MMO.Buff_Orange_Skill26_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 4,
+        "SkillBookItemID": "mmo_addin_orange_Skill_26",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_27": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_27_name",
+          "SourceString": "决斗-收割拓展包",
+          "LocalizedString": "Duel–Reaper Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/icon_FUMO_sg.icon_FUMO_sg",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_HEAD"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_27_skill_des",
+          "SourceString": "对玩家伤害提升<shuzhi>{0}%</>，攻击时斩杀血量低于<shuzhi>{1}%</>的玩家目标",
+          "LocalizedString": "Increases damage dealt to players by <shuzhi>{0}%</> and executes those below <shuzhi>{1}%</> HP."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill27_HitPlayerDamageUp"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill27_KillMaxHP"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill27/Buff_Orange_Skill27_MMO.Buff_Orange_Skill27_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_27",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_28": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_28_name",
+          "SourceString": "决斗-防眩晕拓展包",
+          "LocalizedString": "Duel–Focus Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/icon_FUMO_fxy.icon_FUMO_fxy",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_EYEPIECE"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_28_skill_des",
+          "SourceString": "受到玩家伤害降低<shuzhi>{0}%</>，对玩家护盾条消失时，不会被眩晕",
+          "LocalizedString": "Reduces damage taken from players by <shuzhi>{0}%</>. Prevents Stun on shield break."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill28_BePlayerDamageDown"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill28/Buff_Orange_Skill28_MMO.Buff_Orange_Skill28_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_28",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_29": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_29_name",
+          "SourceString": "决斗-无敌拓展包",
+          "LocalizedString": "Duel–Immortal Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/icon_FUMO_wd.icon_FUMO_wd",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_REACTION_FURNACE"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_29_skill_des",
+          "SourceString": "受到玩家伤害降低<shuzhi>{0}%</>，血量低于{1}%时，无敌<shuzhi>{2}</>秒（伤害超出血量上限无法触发），冷却{3}秒",
+          "LocalizedString": "Reduces damage taken from players by <shuzhi>{0}%</>. Grants Invincibility for <shuzhi>{2}</>s when HP falls below {1}%. Does not trigger when the damage taken exceeds Max HP. Cooldown: {3}s."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill29_BePlayerDamageDown"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill29_CantBeDamage_MaxHP"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill29_CantBeDamage_Duration"
+            }
+          },
+          {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill29_CantBeDamage_CD"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill29/Buff_Orange_Skill29_MMO.Buff_Orange_Skill29_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_29",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "orange_Skill_30": {
+        "SkillName": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
+          "Key": "mmo_addin_orange_Skill_30_name",
+          "SourceString": "决斗-星闪拓展包",
+          "LocalizedString": "Duel–Stellar Expansion Pack"
+        },
+        "SkillIcon": {
+          "AssetPathName": "/Game/Resources/Icon/chajian/icon_FUMO_xs.icon_FUMO_xs",
+          "SubPathString": ""
+        },
+        "SkillQuality": "ITEM_QUALITY_LEGENDRY",
+        "SeasonIndex": 0,
+        "OwnSlotDatas": [
+          "EQUIPMENT_SLOT_ECTOSKELETON"
+        ],
+        "ValidSeasonData": [],
+        "SkillBaseAttributeID": "new4_orange_AtkHp_attribute",
+        "SkillDetail": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/EquipmentSkill_MMO.EquipmentSkill_MMO",
+          "Key": "mmo_addin_orange_Skill_30_skill_des",
+          "SourceString": "对玩家伤害提升<shuzhi>{0}%</>，每闪避<shuzhi>3</>次，回复一次闪避次数",
+          "LocalizedString": "Increases damage dealt to players by <shuzhi>{0}%</>. Restores 1 Dodge after <shuzhi>3</> uses."
+        },
+        "SkillStarsParam": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'EnchantmentEffectFigure_MMO'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/EffectFigure/EnchantmentEffectFigure_MMO.0"
+              },
+              "RowName": "Buff_Orange_Skill30_HitPlayerDamageUp"
+            }
+          }
+        ],
+        "MaxStarLevel": 3,
+        "BuffObjectArray": [
+          {
+            "AssetPathName": "/Game/Resources/Abilities_MMO/Buff/Enchantment/Addin_Orange_Skill30/Buff_Orange_Skill30_MMO.Buff_Orange_Skill30_MMO_C",
+            "SubPathString": ""
+          }
+        ],
+        "BuffMaxSuitAmount": 1,
+        "SkillBookItemID": "mmo_addin_orange_Skill_30",
+        "StarLevelUpgradeAmount": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  }
+]

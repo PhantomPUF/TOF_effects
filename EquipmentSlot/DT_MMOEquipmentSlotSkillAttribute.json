@@ -1,0 +1,1647 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MMOEquipmentSlotSkillAttribute",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ModifyStaticData'",
+        "ObjectPath": "/Script/HottaFramework"
+      }
+    },
+    "Rows": {
+      "old8_blue_AtkHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.027022,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 2.179059,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_AtkHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.036029,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 2.905412,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_AtkHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.045037,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 3.631765,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_AtkHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.054044,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 4.358118,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_AtkHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.054044,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 4.358118,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_AtkHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.072059,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 5.810823,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_AtkHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.090074,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 7.263529,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_AtkHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.108088,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 8.716235,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.108088,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 8.716235,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.129706,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 10.459482,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.153125,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 12.348001,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.180147,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 14.527059,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_DefHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.015346,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 2.179059,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_DefHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.020462,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 2.905412,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_DefHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.025577,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 3.631765,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_DefHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.030693,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 4.358118,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_DefHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.030693,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 4.358118,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_DefHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.040924,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 5.810823,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_DefHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.051154,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 7.263529,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_DefHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.061385,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 8.716235,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_DefHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.061385,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 8.716235,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_DefHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.073662,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 10.459482,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_DefHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.086962,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 12.348001,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_DefHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.102309,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 14.527059,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_AtkDef_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.027022,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.015346,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_AtkDef_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.036029,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.020462,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_AtkDef_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.045037,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.025577,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_blue_AtkDef_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.054044,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.030693,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_AtkDef_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.054044,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.030693,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_AtkDef_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.072059,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.040924,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_AtkDef_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.090074,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.051154,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_purple_AtkDef_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.108088,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.061385,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkDef_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.108088,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.061385,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkDef_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.129706,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.073662,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkDef_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.153125,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.086962,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkDef_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.180147,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.102309,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkCrit_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.108088,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritAdded",
+            "PropValue": 60.714397,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkCrit_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.129706,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritAdded",
+            "PropValue": 72.85728,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkCrit_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.153125,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritAdded",
+            "PropValue": 86.01206,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkCrit_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.180147,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritAdded",
+            "PropValue": 101.19066,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkCritdamage_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.108088,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritDamAdded",
+            "PropValue": 0.006091,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkCritdamage_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.129706,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritDamAdded",
+            "PropValue": 0.007309,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkCritdamage_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.153125,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritDamAdded",
+            "PropValue": 0.008629,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_AtkCritdamage_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.180147,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritDamAdded",
+            "PropValue": 0.010152,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_HpAtk_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 8.716235,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.108088,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_HpAtk_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 10.459482,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.129706,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_HpAtk_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 12.348001,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.153125,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "old8_orange_HpAtk_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 14.527059,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.180147,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_AtkHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.04632353,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 3.7355294,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_AtkHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.050955884,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 4.109082,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_AtkHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.05651471,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 4.557346,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_AtkHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.06253677,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 5.042965,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_AtkHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.09264706,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 7.471059,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_AtkHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.10191177,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 8.218164,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_AtkHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.11302942,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 9.114692,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_AtkHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.12507354,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 10.08593,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.15441178,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 12.451765,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.16985294,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 13.696941,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.18838236,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 15.191153,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.20845589,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 16.809883,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_DefHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.026307978,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 3.7355294,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_DefHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.028938776,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 4.109082,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_DefHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.032095734,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 4.557346,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_DefHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.03551577,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 5.042965,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_DefHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.052615955,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 7.471059,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_DefHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.05787755,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 8.218164,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_DefHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.06419147,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 9.114692,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_DefHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.07103154,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 10.08593,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_DefHp_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.08769326,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 12.451765,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_DefHp_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.096462585,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 13.696941,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_DefHp_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.10698578,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 15.191153,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_DefHp_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.1183859,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 16.809883,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_AtkDef_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.04632353,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.026307978,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_AtkDef_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.050955884,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.028938776,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_AtkDef_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.05651471,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.032095734,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_blue_AtkDef_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.06253677,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.03551577,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_AtkDef_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.09264706,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.052615955,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_AtkDef_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.10191177,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.05787755,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_AtkDef_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.11302942,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.06419147,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_purple_AtkDef_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.12507354,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.07103154,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkDef_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.15441178,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.08769326,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkDef_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.16985294,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.096462585,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkDef_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.18838236,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.10698578,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkDef_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.20845589,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "ElementDef",
+            "PropValue": 0.1183859,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkCrit_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.15441178,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritAdded",
+            "PropValue": 86.73485,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkCrit_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.16985294,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritAdded",
+            "PropValue": 95.40834,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkCrit_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.18838236,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritAdded",
+            "PropValue": 105.81652,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkCrit_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.20845589,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritAdded",
+            "PropValue": 117.09205,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkCritdamage_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.15441178,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritDamAdded",
+            "PropValue": 0.008701658,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkCritdamage_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.16985294,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritDamAdded",
+            "PropValue": 0.009571823,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkCritdamage_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.18838236,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritDamAdded",
+            "PropValue": 0.010616022,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_AtkCritdamage_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.20845589,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CritDamAdded",
+            "PropValue": 0.011747237,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_HpAtk_attribute_0": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 12.451765,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.15441178,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_HpAtk_attribute_1": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 13.696941,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.16985294,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_HpAtk_attribute_2": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 15.191153,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.18838236,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      },
+      "new4_orange_HpAtk_attribute_3": {
+        "ModifyData": [
+          {
+            "IsTag": false,
+            "PropName": "MaxHealthAdded",
+            "PropValue": 16.809883,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          },
+          {
+            "IsTag": false,
+            "PropName": "CommonAtkAdded",
+            "PropValue": 0.20845589,
+            "ModifierOp": "MODIFY_MODOP_ADDITIVE"
+          }
+        ],
+        "MMOSeasonIndex": 0
+      }
+    }
+  }
+]

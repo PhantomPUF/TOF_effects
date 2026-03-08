@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MMOEquipmentSlotSkillCoefficient",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ModifyCoefficientData'",
+        "ObjectPath": "/Script/HottaFramework"
+      }
+    },
+    "Rows": {
+      "CommonAtkAdded": {
+        "LevelCoefficient": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CommonLevel_MMO'",
+              "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/CommonLevel_MMO.0"
+            },
+            "RowName": "CommonAtkAdded"
+          }
+        }
+      },
+      "MaxHealthAdded": {
+        "LevelCoefficient": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CommonLevel_MMO'",
+              "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/CommonLevel_MMO.0"
+            },
+            "RowName": "CommonAtkAdded"
+          }
+        }
+      },
+      "ElementDef": {
+        "LevelCoefficient": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CommonLevel_MMO'",
+              "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/CommonLevel_MMO.0"
+            },
+            "RowName": "CommonAtkAdded"
+          }
+        }
+      },
+      "CritAdded": {
+        "LevelCoefficient": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CommonLevel_MMO'",
+              "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/CommonLevel_MMO.0"
+            },
+            "RowName": "CritAdded"
+          }
+        }
+      },
+      "CritDamAdded": {
+        "LevelCoefficient": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CommonLevel_MMO'",
+              "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable_MMO/CommonLevel_MMO.0"
+            },
+            "RowName": "CritDamAdded"
+          }
+        }
+      }
+    }
+  }
+]
